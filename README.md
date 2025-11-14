@@ -13,6 +13,8 @@ This script provides a user-friendly, bilingual (EN/FR-CA) dialog to keep workst
 - **Detailed logging** of user actions and key events
 - **Fully customizable** colors, messages, and branding
 
+![Windows Restart Prompt Sample Screenshot](WindowsFormsGUI.png)
+
 ## Features
 
 - **Always-on-top modal dialog**: Fixed dialog, no minimize/maximize/close controls
@@ -307,3 +309,4 @@ Contributions, issues, and feature requests are welcome! Please feel free to sub
 - Final countdown (enforcement): 15 minutes (`$RestartTimeout`)
 
 **Expected outcome**: System will restart within 24 hours of script start (configurable), with a 15-minute final warning at enforcement.
+
