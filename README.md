@@ -195,7 +195,7 @@ Because this script displays a Windows Forms GUI, it must run in the interactive
 
 Simply run the script with appropriate permissions:
 ```powershell
-.\EUD_Prompt-Rebootv4.ps1
+.\EUD_Prompt-Reboot.ps1
 ```
 
 ## Technical Details
@@ -309,4 +309,5 @@ Contributions, issues, and feature requests are welcome! Please feel free to sub
 - Final countdown (enforcement): 15 minutes (`$RestartTimeout`)
 
 **Expected outcome**: System will restart within 24 hours of script start (configurable), with a 15-minute final warning at enforcement.
+
 
